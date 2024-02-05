@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/tab1">
+
+
+    <fragment
+        android:id="@+id/tab1"
+        android:name="com.example.tablayoutviewpager.fragment.Tab1"
+        android:label="fragment_tab1"
+        tools:layout="@layout/fragment_tab1" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tablayoutviewpager.fragment.nav_gallery"
+        android:label="fragment_nav_gallery"
+        tools:layout="@layout/fragment_nav_gallery" />
+    <fragment
+        android:id="@+id/tab3"
+        android:name="com.example.tablayoutviewpager.fragment.Tab3"
+        android:label="fragment_tab3"
+        tools:layout="@layout/fragment_tab3" />
+    <fragment
+        android:id="@+id/placeholderFragment"
+        android:name="com.example.tablayoutviewpager.PlaceholderFragment"
+        android:label="PlaceholderFragment" />
+</navigation>
